@@ -1,0 +1,217 @@
+html{
+	scroll-behavior: smooth;
+
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	/*mayusculas*/
+	text-transform: uppercase;
+	color: #34251F;
+	font-size: 72px;
+	text-align:center;
+}
+
+h1 span{
+	color: #FFF9F5;
+	font-size: 66px;
+}
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-weight:bold;
+	font-size: 1.625rem;
+	text-align:center;
+	color: #34251F;
+	margin-bottom:2.3675rem;   /*le da espacio por fuera del contenedor*/ 
+
+
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size:1rem;
+
+}
+a:link, a:visited{
+	color:#34251F;
+}
+
+ul{
+	/**height: 360px;
+	width: 1336px;**/
+	overflow: hidden;
+}
+.bx-wrapper {
+	background:transparent;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    height: 100vh;
+    margin-bottom: 0;
+}
+.bx-wrapper .bx-pager{
+	display: none
+}
+.bx-viewport{
+	height: 100vh!important;
+}
+.slider img{
+	/*width: 70%;*/
+	align-items: center;
+}
+
+
+.marron{
+	color:#34251F;
+}
+
+
+#header{
+	position: fixed;
+	top:0;
+	z-index: 1000;
+}
+.navbar{
+	position: fixed;
+	top:0;
+}
+
+
+
+#section1, #section2, #section3, #section4 /*#section5*/{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+
+}
+#section1{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#988379+0,765a4e+100 */
+background: #988379; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #988379 0%, #765a4e 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #988379 0%,#765a4e 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #988379 0%,#765a4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#988379', endColorstr='#765a4e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+#section1 img{
+	position: absolute;/*lo pone en otro layer*/
+    bottom: 0;
+    margin-left: 25%;
+    width: 63vh;
+}
+#section2{
+	background-color: #F2EEED;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#section2 p{
+	padding: 0 20%;
+}
+#section2 .row{
+	height: 100vh;
+
+}
+#section3{
+	background-color: #F8F8F8;
+}
+#section3 .imgsec3 {
+	max-height: 80%; 
+	max-width: 80%; 
+	/*object-fit: contain;*/
+}
+#section4{
+	background-color: #F2EEED;
+}
+#section4 .vid-aligner{
+	margin:0 auto;/*alinea horizontalmente*/
+}
+#section4 h2{
+	margin-bottom: 5rem;
+}
+#section4 .btn.btn-primary{
+	display: block;
+    margin: 5rem auto 0 auto;
+    color: #34251F;
+	background-color: transparent;
+	border:2px solid;
+    border-color: #34251F;
+    max-width: 35%;
+
+}
+#section5{
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#988379+0,765a4e+100 */
+background: #988379; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #988379 0%, #765a4e 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #988379 0%,#765a4e 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #988379 0%,#765a4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#988379', endColorstr='#765a4e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	width: 100%;
+	padding:4rem 0 1rem 0;
+	height: 100vh;
+	position: relative;
+	box-sizing: border-box;
+
+}
+#section5 .container{
+	margin:0 auto;
+}
+#section5 .col-5, #section5 .col-7{
+	border:2px solid #34251F;
+	padding: 2rem;
+
+}
+#section5 .col-5{
+	border-right:none;
+}
+#section5 .btn, #section5 .btn-primary{
+	color: #34251F;
+	background-color: transparent;
+	border:2px solid;
+    border-color: #34251F;
+    margin-top: 2rem;
+    float:right;
+}
+#section5 .row{
+	max-width: 960px;
+	margin:0 auto;
+}
+#section5 .form-group input::placeholder{
+	color:#34251F;
+}
+#section5 .form-group input{
+	padding: 0.5rem;
+}
+
+.form-control {
+    height: 2.5rem;
+    color: #34251F;
+	background-color: transparent;
+	border:2px solid;
+    border-color: #34251F;
+    padding: 0;
+
+}
+
+.col-center{
+	display:flex;
+	align-items: center;
+
+}
+.col-bottom{
+	display: flex;
+	align-items: baseline;
+}
+.col-bottom img{
+	align-self: flex-end;
+
+}
+.footer-text{
+	text-align: center;
+	padding-top: 2rem;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
